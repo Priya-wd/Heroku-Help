@@ -39,7 +39,7 @@ web: node app.js
 var PORT = process.env.PORT || 3000
 ```
 
-## Build your app and run it locally
+## Build Your App and Run it Locally
 > Before deploying app to Heroku, you can check it locally
 ```
 $ npm install
