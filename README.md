@@ -1,9 +1,10 @@
 # Heroku-Help
 
-- The Heroku CLI requires Git. Make sure you already have git installed. 
-- If not, check https://github.com/Priya-wd/Git-Help
+> The Heroku CLI requires Git. Make sure you already have git installed. 
+> If not, check https://github.com/Priya-wd/Git-Help
 
 ## Download & Install Heroku
+**Download**
 - Windows OS: [Click here to Download](https://cli-assets.heroku.com/heroku-x86.exe)
 - Mac OS: `$ brew tap heroku/brew && brew install heroku`
 - Ubuntu 16+ : `$ sudo snap install --classic heroku`
@@ -33,13 +34,13 @@ web: node app.js
 }
 ```
 ## Port Variable
-Make sure you have set PORT variable 
+> Make sure you have set PORT variable 
 ```
 var PORT = process.env.PORT || 3000
 ```
 
 ## Build your app and run it locally
-Before deploying app to Heroku, you can check it locally
+> Before deploying app to Heroku, you can check it locally
 ```
 $ npm install
 $ heroku local web
@@ -47,7 +48,7 @@ $ heroku local web
 > Your app should now be running on `http://localhost:5000/`
 
 ## Deploy Node.js Application on Heroku
-Run following commands to deploy your app on Heroku
+> Run following commands to deploy your app on Heroku
 ```
 $ git add .
 $ git commit -m "Added a Procfile or Start Script"
@@ -58,7 +59,7 @@ $ git push heroku master
 ```
 > Go to Heroku site & refresh. You will see your app added to Heroku
 
-To open the app in your browser, run
+> To open the app in your browser, run
 ```
 $ heroku open
 ```
