@@ -65,7 +65,7 @@ $ heroku open
 ```
 
 ## Updating Git remotes
-> If you rename your heroku app then update git remote with new app name
+
 ```
 $ git remote rm heroku
 $ heroku git:remote -a newname
